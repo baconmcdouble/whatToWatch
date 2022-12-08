@@ -1,0 +1,94 @@
+h1 {
+    font-family: 'Kanit', sans-serif;
+    color: #FF7F3F;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    color: #CFFDE1;
+}
+
+nav {
+    opacity: 0.95;
+    padding: .75rem 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+a.nav-link.active {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    background-color: #95CD41;
+    padding: 0 0.3rem;
+    border-radius: 0.5rem;
+    transition: transform 0.2s cubic-bezier(0.83, 0, 0.17, 1);
+}
+
+.navbar-brand:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+.btn.btn-outline-success:hover {
+    background-color: #95CD41;
+    color: white;
+    outline-style: none;
+}
+
+.btn.btn-outline-success {
+    color: #95CD41;
+    border-color: #95CD41;
+}
+
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.blank-space {
+    opacity: 0;
+}
+
+#content {
+    padding: 3rem 0;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 1) 85%), radial-gradient(ellipse at top left, #F6D860, transparent 50%), radial-gradient(ellipse at top right, #95CD41, transparent 50%), radial-gradient(ellipse at center right, rgba(112.520718, 44.062154, 249.437846, 0.5), transparent 50%), radial-gradient(ellipse at center left, #FF7F3F, transparent 50%);
+}
+
+div.carousel-item>img {
+    align-items: center;
+    width: 10em;
+
+}
+
+html,
+body,
+#page,
+header {
+    height: 100%;
+    overscroll-behavior: auto;
+}
+
+#page {
+    position: relative;
+}
+
+#content {
+    padding-bottom: 130px;
+}
+
+/* FOOTER HEIGHT */
+footer {
+    position: absolute;
+    bottom: 0;
+    overscroll-behavior: auto;
+}
