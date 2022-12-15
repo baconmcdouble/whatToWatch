@@ -18,6 +18,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 movies = []
+poster_links = []
 
 with open('OscarBP.txt', 'r') as f1:
     for line in f1.readlines():
@@ -51,6 +52,11 @@ for movie in movies:
     wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'img.ipc-image')))
     poster = browser.find_element(By.CSS_SELECTOR, 'img.ipc-image')
     poster_link = poster.get_attribute('srcset')
+    
+    poster_links.append(poster_link)
+    
+    
+    
     
     
     
