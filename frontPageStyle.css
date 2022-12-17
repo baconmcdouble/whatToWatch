@@ -94,3 +94,7 @@ footer {
     bottom: 0;
     overscroll-behavior: auto;
 }
+
+[v-cloak] {
+    display: none;
+}
