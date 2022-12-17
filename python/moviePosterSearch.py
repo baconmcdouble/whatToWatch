@@ -55,6 +55,9 @@ for movie in movies:
     
     poster_links.append(poster_link)
     
+with open('OscarPosters.txt', 'w') as fo:
+    for i in poster_links:
+        fo.write(i + '\n')
     
     
     
